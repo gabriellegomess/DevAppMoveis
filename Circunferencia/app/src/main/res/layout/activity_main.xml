@@ -6,22 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- activity_main.xml -->
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
-
+<!-- Criando uma aba para inserir a variavel raio-->
         <EditText
             android:id="@+id/radiusEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
             android:hint="Insira o raio"
-            android:inputType="numberDecimal"
-            android:layout_margin="16dp"/>
-
+            android:inputType="numberDecimal" />
+        <!-- Criando um botão para levar a função do calculo, com os ID de cada item como devem ser chamados na função-->
         <Button
             android:id="@+id/calculateButton"
             android:layout_width="wrap_content"
@@ -29,7 +30,10 @@
             android:layout_below="@id/radiusEditText"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="16dp"
-            android:text="Calcular"/>
+            android:background="@color/black"
+            android:backgroundTint="@color/black"
+            android:hapticFeedbackEnabled="false"
+            android:text="Calcular" />
 
         <TextView
             android:id="@+id/resultTextView"
