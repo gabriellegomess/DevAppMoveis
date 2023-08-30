@@ -1,0 +1,2 @@
+LinearLayout (no xml), permite que todas as ferramentes e textos sejam colocadas onde quiser e usar todo o tamanho da tela
+Da pra mudar as coisas usando android: orientation, ai escolhe vertical ou horizontal para o que precisar que fique na tela
