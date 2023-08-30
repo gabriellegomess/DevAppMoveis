@@ -1,4 +1,6 @@
-LinearLayout (no xml), permite que todas as ferramentes e textos sejam colocadas onde quiser e usar todo o tamanho da tela, mas existe varios tipos de Layout (frame: trabalha em camadas de informações), (table: trabalha com tabelas, organizar os negocio em linhas, colunas, arrumar figura do lado de descrição, organizar o tamanho das imagens e descrições etc), (listView: trabalha com listas, menus com opções), etc
+androidx.constraintlayout.widget.ConstraintLayout - Permite que tudo seja arrastado para onde quiser mover, sem ter um local fixo na tela pre definido
+LinearLayout (no xml), permite que todas as ferramentes e textos sejam colocadas na vertical, horizontal e onde quer centralizar, msa ele fica fixo do jeito que foi colocado
+mas existe varios tipos de Layout (frame: trabalha em camadas de informações), (table: trabalha com tabelas, organizar os negocio em linhas, colunas, arrumar figura do lado de descrição, organizar o tamanho das imagens e descrições etc), (listView: trabalha com listas, menus com opções), etc
 Da pra mudar as coisas usando android: orientation, ai escolhe vertical ou horizontal para o que precisar que fique na tela
 
 Código nas primeiras linhas 
