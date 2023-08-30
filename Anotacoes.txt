@@ -18,3 +18,5 @@ Codigo no TextView, botao, etc
 Na pasta "res" em drawable  da para colar as imagens que quer ser usada
 Na pasta value "color" é possivel mudar todas as cores do projeto, de fundo, botão , e e "temes", tambem da para mudar o tema do app
 
+Trocar a cor do botão   android:backgroundTint="#57FF9A"
+
