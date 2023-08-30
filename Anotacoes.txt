@@ -1,2 +1,18 @@
-LinearLayout (no xml), permite que todas as ferramentes e textos sejam colocadas onde quiser e usar todo o tamanho da tela
+LinearLayout (no xml), permite que todas as ferramentes e textos sejam colocadas onde quiser e usar todo o tamanho da tela, mas existe varios tipos de Layout (frame: trabalha em camadas de informações), (table: trabalha com tabelas, organizar os negocio em linhas, colunas, arrumar figura do lado de descrição, organizar o tamanho das imagens e descrições etc), (listView: trabalha com listas, menus com opções), etc
 Da pra mudar as coisas usando android: orientation, ai escolhe vertical ou horizontal para o que precisar que fique na tela
+
+Código nas primeiras linhas 
+
+    android:orientation="vertical"
+    android:gravity="center"
+    android:textSize="25sp"
+    android:background="@color/black" (muda a cor pelo xml msm)
+
+Codigo no TextView, botao, etc
+
+        android:textSize="30sp"
+        android:textColor="@color/white"
+
+Na pasta "res" em drawable  da para colar as imagens que quer ser usada
+Na pasta value "color" é possivel mudar todas as cores do projeto, de fundo, botão , e e "temes", tambem da para mudar o tema do app
+
